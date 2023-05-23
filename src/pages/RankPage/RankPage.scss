@@ -1,0 +1,78 @@
+.top-winner {
+	height: 500px;
+	background-repeat: no-repeat;
+	background-color: #6088e0;
+	background-position: bottom;
+	margin: 40px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+
+	p {
+		font-size: 2em;
+		color: white;
+	}
+
+
+	.name-winner {
+		display: flex;
+		justify-content: center;
+		gap: 130px;
+
+		.no-2 {
+			margin-top: 30px;
+		}
+
+		.no-3 {
+			margin-top: 60px;
+		}
+
+		.user-icon {
+			font-size: 7em;
+			color: #f1eeee;
+			margin-top: 50px;
+		}
+	}
+}
+
+.rank-table {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	.title-tb {
+		font-size: 2em;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.tb-rank {
+		max-width: 90%;
+		margin-left: 5%;
+		margin-top: 30px;
+		margin-bottom: 80px;
+	}
+
+	.tb-rank,
+	th,
+	td {
+		border-collapse: collapse;
+		font-size: 1.2em;
+		padding: 10px;
+	}
+
+	.td-user {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+	}
+
+	tr:nth-child(even) {
+		background-color: #e4ecf9;
+	}
+
+	.user-icon {
+		font-size: 3em;
+		color: #9c9898;
+	}
+}

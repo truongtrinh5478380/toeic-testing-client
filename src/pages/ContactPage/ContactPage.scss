@@ -1,0 +1,49 @@
+.contact {
+	text-align: center;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	align-items: stretch;
+	margin-left: 25%;
+	margin-top: 50px;
+
+	.name,
+	.email,
+	.subject,
+	.content-mess {
+		font-size: 1.2em;
+		padding: 9px 5px;
+		border: 1px solid #ccc8c8;
+		border-radius: 5px;
+
+		&:hover {
+			border-color: #5F88DF;
+		}
+	}
+
+	.name,
+	.email,
+	.subject {
+		margin-bottom: 20px;
+	}
+}
+
+.btn-sub {
+	background-color: #5F88DF;
+	color: white;
+	border: none;
+	padding: 15px 0px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	margin-top: 20px;
+	transition: 0.2s;
+	margin-bottom: 50px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #ea9aa7;
+	}
+}

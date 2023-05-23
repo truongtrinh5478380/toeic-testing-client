@@ -1,0 +1,50 @@
+.form-new-topic {
+	display: flex;
+	margin: 50px;
+
+	.topic-paper {
+		width: 69%;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		margin-right: 1%;
+		height: 720px;
+		overflow-y: auto;
+
+		&::-webkit-scrollbar {
+			width: 8px;
+			background-color: #e7e3e3;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: #5F88DF;
+			border-radius: 10px;
+		}
+
+		.part {
+
+			margin-top: 20px;
+			text-align: center;
+			font-size: 1.2em;
+		}
+	}
+
+	.topic-form {
+		width: 30%;
+		padding: 30px;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	}
+
+	.input-item {
+		display: flex;
+		justify-content: space-between;
+		padding: 5px 0px;
+	}
+
+	.add-section-save {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+.add-passages {
+	width: 500px !important;
+}

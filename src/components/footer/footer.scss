@@ -1,0 +1,71 @@
+.footer {
+	height: 350px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-footer {
+	padding: 60px 0px;
+	line-height: 50px;
+
+	li {
+		list-style: none;
+		color: #5F88DF;
+		cursor: pointer;
+		transition: 0.2s;
+
+		&:hover {
+			color: #ea9aa7;
+		}
+	}
+}
+
+.search-network {
+	padding-top: 140px;
+	line-height: 60px;
+
+	.logo {
+		cursor: pointer;
+		font-size: 2em;
+		font-weight: 800;
+		align-items: center;
+	}
+
+	.search-footer {
+		display: flex;
+
+		.inp-search {
+			padding: 9px 5px;
+			outline: none;
+			border: 1px solid gainsboro;
+			border-radius: 3px;
+			font-size: 1.2em;
+			width: 200px;
+			margin-right: 10px;
+		}
+
+		.btn-search {
+			padding: 5px 25px;
+			font-size: 1em;
+			background-color: #5F88DF;
+			color: white;
+			outline: none;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+	}
+
+	.social-network {
+		span {
+			font-size: 2.5em;
+			color: #5F88DF;
+			cursor: pointer;
+			transition: 0.2s;
+
+			&:hover {
+				color: #ea9aa7;
+			}
+		}
+	}
+}

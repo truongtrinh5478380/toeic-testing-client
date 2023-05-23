@@ -1,0 +1,43 @@
+.reading-tabs {
+	margin: 40px 60px;
+
+	.tab {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		gap: 30px;
+		margin: 40px 0px;
+
+
+		.detail {
+			padding: 30px 10px;
+			border-radius: 10px;
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+			cursor: pointer;
+			transition: 0.2s;
+			text-decoration: none;
+			color: black;
+
+			.title {
+				font-size: 2em;
+			}
+
+			&:hover {
+				background-color: #d0e3ff;
+				box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+			}
+		}
+	}
+
+	.react-tabs__tab:hover {
+		color: #6088e0;
+		transition: 0.2s;
+	}
+
+	.react-tabs__tab--selected {
+		background-color: #d0e3ff;
+
+		&:hover {
+			color: black;
+		}
+	}
+}

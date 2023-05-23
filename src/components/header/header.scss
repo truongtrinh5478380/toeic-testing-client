@@ -1,0 +1,145 @@
+.row {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px 15px;
+	margin: 0px 30px;
+}
+
+.search-form {
+	display: flex;
+	width: 200px;
+
+	.inp-search {
+		padding: 9px 5px;
+		outline: none;
+		border: 1px solid gainsboro;
+		border-radius: 3px;
+		font-size: 1.2em;
+		width: 125px;
+		margin-right: 10px;
+	}
+
+	.btn-search {
+		padding: 5px 25px;
+		font-size: 1em;
+		background-color: #5F88DF;
+		color: white;
+		outline: none;
+		border: none;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+}
+
+.signup-login,
+.personal-logout {
+	display: flex;
+	gap: 10px;
+
+	.sign-up,
+	.personal-page {
+		background-color: inherit;
+		border: none;
+		padding: 0px 10px;
+		color: #5F88DF;
+		font-size: 1em;
+		cursor: pointer;
+		transition: 0.2s;
+		text-decoration: none;
+		padding-top: 10px;
+
+		&:hover {
+			color: #ea9aa7;
+		}
+	}
+
+	.login,
+	.logout {
+		background-color: #5F88DF;
+		border: none;
+		padding: 0px 18px;
+		color: white;
+		font-weight: 700;
+		border-radius: 7px;
+		font-size: 1em;
+		cursor: pointer;
+		transition: 0.2s;
+		text-decoration: none;
+		padding-top: 10px;
+
+		&:hover {
+			background-color: rgb(234, 154, 167);
+			;
+		}
+	}
+}
+
+.logo-nav {
+	.logo {
+		cursor: pointer;
+		font-size: 2em;
+		font-weight: 800;
+		align-items: center;
+		text-decoration: none;
+	}
+
+	.nav {
+		display: flex;
+		gap: 20px;
+
+		.nav-item {
+			font-size: 1em;
+			padding: 14px 16px;
+			cursor: pointer;
+			transition: 0.2s;
+			text-decoration: none;
+			color: #000;
+
+			&:hover {
+				color: #6087DF;
+			}
+		}
+
+		.manager {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+
+.drop-nav {
+	position: relative;
+
+	.drop-content {
+		position: absolute;
+		display: none;
+		z-index: 1;
+		box-shadow: 0px 0 10px #EBEEF9;
+
+		.drop-item {
+			padding: 5px 16px;
+			cursor: pointer;
+			transition: 0.2s;
+			width: 200px;
+			background-color: white;
+
+			&:hover {
+				background-color: #EDF2F7;
+			}
+
+			.item {
+				text-decoration: none;
+				color: #000;
+
+				&:hover {
+					color: #ea9aa7;
+				}
+
+			}
+		}
+	}
+
+	&:hover .drop-content {
+		display: block;
+	}
+}
